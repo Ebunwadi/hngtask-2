@@ -61,7 +61,7 @@ app.post('/', (req, res) => {
     }
   
     res.setHeader("Content-Type", "application/json").json({
-      slackUsername: 'Ebuwonders',
+      slackUsername: 'ebuwonders',
       operation_type,
       result,
     });
